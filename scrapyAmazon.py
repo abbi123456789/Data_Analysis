@@ -2,6 +2,7 @@ import scrapy
 from fake_useragent import UserAgent
 from scrapy.utils.project import get_project_settings
 # Change one
+# change 2
 class AmazonSpider(scrapy.Spider):
     name = "amazgoton"
     allowed_domains = ["amazon.in"]
