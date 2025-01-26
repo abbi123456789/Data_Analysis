@@ -1,9 +1,9 @@
 import scrapy
 from fake_useragent import UserAgent
 from scrapy.utils.project import get_project_settings
-
+# Change one
 class AmazonSpider(scrapy.Spider):
-    name = "amazon"
+    name = "amazgoton"
     allowed_domains = ["amazon.in"]
     start_urls = [
         "https://www.amazon.in/s?k=mushroom"
